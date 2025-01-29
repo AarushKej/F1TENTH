@@ -1,0 +1,77 @@
+[0.533s] Invoking command in '/home/orin/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/gap_follow -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/gap_follow
+[0.723s] -- The C compiler identification is GNU 9.4.0
+[0.888s] -- The CXX compiler identification is GNU 9.4.0
+[0.890s] -- Check for working C compiler: /usr/bin/cc
+[1.043s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.045s] -- Detecting C compiler ABI info
+[1.189s] -- Detecting C compiler ABI info - done
+[1.222s] -- Detecting C compile features
+[1.223s] -- Detecting C compile features - done
+[1.230s] -- Check for working CXX compiler: /usr/bin/c++
+[1.392s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.394s] -- Detecting CXX compiler ABI info
+[1.555s] -- Detecting CXX compiler ABI info - done
+[1.576s] -- Detecting CXX compile features
+[1.576s] -- Detecting CXX compile features - done
+[1.582s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.640s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.640s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.080s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.192s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.352s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.414s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.683s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.687s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.689s] -- Looking for pthread.h
+[2.835s] -- Looking for pthread.h - found
+[2.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.979s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.979s] -- Looking for pthread_create in pthreads
+[3.107s] -- Looking for pthread_create in pthreads - not found
+[3.107s] -- Looking for pthread_create in pthread
+[3.250s] -- Looking for pthread_create in pthread - found
+[3.253s] -- Found Threads: TRUE  
+[3.564s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[3.567s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.632s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.764s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.829s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.016s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.193s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.198s] -- Added test 'lint_cmake' to check CMake code style
+[4.199s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.201s] -- Added test 'xmllint' to check XML markup files
+[4.209s] -- Configuring done
+[4.214s] -- Generating done
+[4.217s] -- Build files have been written to: /home/orin/sim_ws/build/gap_follow
+[4.241s] Invoked command in '/home/orin/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/gap_follow -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/gap_follow
+[4.249s] Invoking command in '/home/orin/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/gap_follow -- -j6 -l6
+[4.336s] Invoked command in '/home/orin/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/gap_follow -- -j6 -l6
+[4.386s] Invoking command in '/home/orin/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/gap_follow
+[4.405s] -- Install configuration: ""
+[4.405s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[4.405s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[4.406s] -- Installing: /home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[4.406s] -- Installing: /home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[4.468s] Listing '/home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[4.468s] Compiling '/home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py'...
+[4.479s] -- Installing: /home/orin/sim_ws/install/gap_follow/lib/gap_follow/gap_follow.py
+[4.480s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[4.480s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[4.481s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[4.481s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[4.481s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/path.sh
+[4.482s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[4.482s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.bash
+[4.482s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.sh
+[4.482s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[4.483s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[4.483s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/package.dsv
+[4.483s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[4.484s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[4.484s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[4.484s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/package.xml
+[4.490s] Invoked command in '/home/orin/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/gap_follow

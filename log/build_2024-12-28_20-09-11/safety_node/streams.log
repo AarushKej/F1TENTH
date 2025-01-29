@@ -1,0 +1,50 @@
+[0.503s] Invoking command in '/home/orin/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/safety_node
+[0.538s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.584s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.991s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.053s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.059s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.389s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.653s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.653s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.858s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.920s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.049s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.181s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.184s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.184s] -- Added test 'lint_cmake' to check CMake code style
+[2.185s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.186s] -- Added test 'xmllint' to check XML markup files
+[2.193s] -- Configuring done
+[2.199s] -- Generating done
+[2.202s] -- Build files have been written to: /home/orin/sim_ws/build/safety_node
+[2.222s] Invoked command in '/home/orin/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/safety_node
+[2.231s] Invoking command in '/home/orin/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/safety_node -- -j6 -l6
+[2.317s] Invoked command in '/home/orin/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/safety_node -- -j6 -l6
+[2.388s] Invoking command in '/home/orin/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/safety_node
+[2.407s] -- Install configuration: ""
+[2.407s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[2.408s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[2.408s] -- Installing: /home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node
+[2.408s] -- Installing: /home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[2.468s] Listing '/home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[2.469s] Compiling '/home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py'...
+[2.481s] -- Installing: /home/orin/sim_ws/install/safety_node/lib/safety_node/safety_node.py
+[2.482s] -- Installing: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[2.482s] -- Installing: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[2.485s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[2.486s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[2.486s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/path.sh
+[2.486s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/path.dsv
+[2.486s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.bash
+[2.486s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.sh
+[2.487s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.zsh
+[2.487s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.dsv
+[2.487s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/package.dsv
+[2.487s] -- Installing: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[2.487s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[2.487s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[2.487s] -- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/package.xml
+[2.494s] Invoked command in '/home/orin/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/safety_node

@@ -1,0 +1,343 @@
+[0.457s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.458s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8003d100>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8003d100>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7ff85040>)
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.793s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orin/sim_ws'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gap_follow) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gap_follow' with type 'ros.ament_cmake' and name 'gap_follow'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extension 'ignore'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extension 'ignore_ament_install'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extensions ['colcon_pkg']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extension 'colcon_pkg'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extensions ['colcon_meta']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/safety_node) by extension 'ros'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/safety_node' with type 'ros.ament_cmake' and name 'safety_node'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'ignore_ament_install'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'colcon_meta'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extensions ['ros']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follow) by extension 'ros'
+[0.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wall_follow' with type 'ros.ament_cmake' and name 'wall_follow'
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.884s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/orin/sim_ws/install
+[0.887s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/foxy
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.055s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/sim_ws/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/sim_ws/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/orin/sim_ws/src/f1tenth_gym_ros', 'symlink_install': False, 'test_result_base': None}
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_target' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_clean_cache' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_clean_first' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_force_configure' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'ament_cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'catkin_cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.056s] DEBUG:colcon.colcon_core.verb:Building package 'gap_follow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/sim_ws/build/gap_follow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/sim_ws/install/gap_follow', 'merge_install': False, 'path': '/home/orin/sim_ws/src/gap_follow', 'symlink_install': False, 'test_result_base': None}
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_args' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_target' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.058s] Level 5:colcon.colcon_core.verb:set package 'safety_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.058s] DEBUG:colcon.colcon_core.verb:Building package 'safety_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/sim_ws/build/safety_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/sim_ws/install/safety_node', 'merge_install': False, 'path': '/home/orin/sim_ws/src/safety_node', 'symlink_install': False, 'test_result_base': None}
+[1.058s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_args' from command line to 'None'
+[1.058s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_target' from command line to 'None'
+[1.058s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.058s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_clean_cache' from command line to 'False'
+[1.058s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_clean_first' from command line to 'False'
+[1.059s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'cmake_force_configure' from command line to 'False'
+[1.059s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'ament_cmake_args' from command line to 'None'
+[1.059s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'catkin_cmake_args' from command line to 'None'
+[1.059s] Level 5:colcon.colcon_core.verb:set package 'wall_follow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.059s] DEBUG:colcon.colcon_core.verb:Building package 'wall_follow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin/sim_ws/build/wall_follow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin/sim_ws/install/wall_follow', 'merge_install': False, 'path': '/home/orin/sim_ws/src/wall_follow', 'symlink_install': False, 'test_result_base': None}
+[1.059s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.061s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.062s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orin/sim_ws/src/f1tenth_gym_ros' with build type 'ament_python'
+[1.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[1.068s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[1.073s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.084s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin/sim_ws/src/gap_follow' with build type 'ament_cmake'
+[1.085s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin/sim_ws/src/gap_follow'
+[1.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.104s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin/sim_ws/src/safety_node' with build type 'ament_cmake'
+[1.105s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin/sim_ws/src/safety_node'
+[1.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.119s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin/sim_ws/src/wall_follow' with build type 'ament_cmake'
+[1.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin/sim_ws/src/wall_follow'
+[1.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.666s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orin/sim_ws/src/f1tenth_gym_ros'
+[1.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/gap_follow -- -j6 -l6
+[1.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/safety_node -- -j6 -l6
+[1.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/gap_follow -- -j6 -l6
+[1.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/safety_node -- -j6 -l6
+[1.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/gap_follow
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/safety_node
+[1.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/wall_follow
+[2.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(safety_node)
+[2.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/safety_node
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node' for CMake module files
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node' for CMake config files
+[2.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_node', 'cmake_prefix_path')
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/cmake_prefix_path.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/cmake_prefix_path.dsv'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/cmake_prefix_path.sh'
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/lib'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/bin'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/lib/pkgconfig/safety_node.pc'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages'
+[2.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_node', 'pythonpath')
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/pythonpath.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/pythonpath.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/pythonpath.sh'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/bin'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/sim_ws/install/safety_node/share/safety_node/package.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.bash'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.zsh'
+[2.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/sim_ws/install/safety_node/share/colcon-core/packages/safety_node)
+[2.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gap_follow)
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow' for CMake module files
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/gap_follow
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow' for CMake config files
+[2.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'cmake_prefix_path')
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.ps1'
+[2.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.dsv'
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.sh'
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/lib'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/bin'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/lib/pkgconfig/gap_follow.pc'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages'
+[2.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'pythonpath')
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/pythonpath.ps1'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/pythonpath.dsv'
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/pythonpath.sh'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/bin'
+[2.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.ps1'
+[2.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.dsv'
+[2.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.sh'
+[2.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.bash'
+[2.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.zsh'
+[2.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/sim_ws/install/gap_follow/share/colcon-core/packages/gap_follow)
+[2.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_follow)
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow' for CMake module files
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow' for CMake config files
+[2.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follow', 'cmake_prefix_path')
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/cmake_prefix_path.ps1'
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/wall_follow
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/cmake_prefix_path.dsv'
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/cmake_prefix_path.sh'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/lib'
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/bin'
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/lib/pkgconfig/wall_follow.pc'
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages'
+[2.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follow', 'pythonpath')
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/pythonpath.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/pythonpath.dsv'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/pythonpath.sh'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/bin'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.ps1'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.dsv'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.sh'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.bash'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.zsh'
+[2.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/sim_ws/install/wall_follow/share/colcon-core/packages/wall_follow)
+[2.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(safety_node)
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node' for CMake module files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node' for CMake config files
+[2.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_node', 'cmake_prefix_path')
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/cmake_prefix_path.ps1'
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/cmake_prefix_path.dsv'
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/cmake_prefix_path.sh'
+[2.205s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/lib'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/bin'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/lib/pkgconfig/safety_node.pc'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages'
+[2.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('safety_node', 'pythonpath')
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/pythonpath.ps1'
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/pythonpath.dsv'
+[2.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/safety_node/share/safety_node/hook/pythonpath.sh'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/safety_node/bin'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.ps1'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/sim_ws/install/safety_node/share/safety_node/package.dsv'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.sh'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.bash'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/safety_node/share/safety_node/package.zsh'
+[2.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/sim_ws/install/safety_node/share/colcon-core/packages/safety_node)
+[2.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gap_follow)
+[2.240s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow' for CMake module files
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow' for CMake config files
+[2.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'cmake_prefix_path')
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.ps1'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.dsv'
+[2.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.sh'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/lib'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/bin'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/lib/pkgconfig/gap_follow.pc'
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages'
+[2.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'pythonpath')
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/pythonpath.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/pythonpath.dsv'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/gap_follow/share/gap_follow/hook/pythonpath.sh'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/gap_follow/bin'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.sh'
+[2.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.bash'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/gap_follow/share/gap_follow/package.zsh'
+[2.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/sim_ws/install/gap_follow/share/colcon-core/packages/gap_follow)
+[2.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_follow)
+[2.270s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow' for CMake module files
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow' for CMake config files
+[2.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follow', 'cmake_prefix_path')
+[2.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/cmake_prefix_path.ps1'
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/cmake_prefix_path.dsv'
+[2.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/cmake_prefix_path.sh'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/lib'
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/bin'
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/lib/pkgconfig/wall_follow.pc'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages'
+[2.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follow', 'pythonpath')
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/pythonpath.ps1'
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/pythonpath.dsv'
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/wall_follow/share/wall_follow/hook/pythonpath.sh'
+[2.282s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/wall_follow/bin'
+[2.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.ps1'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.dsv'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.sh'
+[2.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.bash'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/wall_follow/share/wall_follow/package.zsh'
+[2.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/sim_ws/install/wall_follow/share/colcon-core/packages/wall_follow)
+[2.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/orin/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/orin/sim_ws/build/f1tenth_gym_ros/build install --record /home/orin/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[3.420s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/f1tenth_gym_ros' for CMake module files
+[3.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/orin/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/orin/sim_ws/build/f1tenth_gym_ros/build install --record /home/orin/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/f1tenth_gym_ros' for CMake config files
+[3.429s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/f1tenth_gym_ros/lib'
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/f1tenth_gym_ros/bin'
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[3.431s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages'
+[3.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[3.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[3.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[3.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[3.438s] Level 1:colcon.colcon_core.environment:checking '/home/orin/sim_ws/install/f1tenth_gym_ros/bin'
+[3.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[3.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[3.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[3.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[3.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[3.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin/sim_ws/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[3.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.451s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.468s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.515s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/sim_ws/install/local_setup.ps1'
+[3.522s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin/sim_ws/install/_local_setup_util_ps1.py'
+[3.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/sim_ws/install/setup.ps1'
+[3.532s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/sim_ws/install/local_setup.sh'
+[3.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin/sim_ws/install/_local_setup_util_sh.py'
+[3.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/sim_ws/install/setup.sh'
+[3.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/sim_ws/install/local_setup.bash'
+[3.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/sim_ws/install/setup.bash'
+[3.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin/sim_ws/install/local_setup.zsh'
+[3.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin/sim_ws/install/setup.zsh'

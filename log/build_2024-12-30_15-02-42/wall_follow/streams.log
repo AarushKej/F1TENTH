@@ -1,0 +1,26 @@
+[0.631s] Invoking command in '/home/orin/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
+[0.757s] Invoked command in '/home/orin/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
+[0.855s] Invoking command in '/home/orin/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/wall_follow
+[0.894s] -- Install configuration: ""
+[0.894s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[0.894s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[0.895s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow
+[0.896s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[0.980s] Listing '/home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[1.006s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/lib/wall_follow/wall_follow.py
+[1.007s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[1.007s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[1.007s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[1.007s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[1.007s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[1.007s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[1.008s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[1.019s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[1.020s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[1.020s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[1.020s] -- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/package.dsv
+[1.020s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[1.020s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[1.020s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[1.021s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/package.xml
+[1.021s] Invoked command in '/home/orin/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/wall_follow

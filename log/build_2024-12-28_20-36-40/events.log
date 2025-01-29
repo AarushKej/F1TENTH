@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000708] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.000809] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.001495] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.026766] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.099500] (-) TimerEvent: {}
+[0.200664] (-) TimerEvent: {}
+[0.301325] (-) TimerEvent: {}
+[0.401982] (-) TimerEvent: {}
+[0.502591] (-) TimerEvent: {}
+[0.581909] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[0.583877] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[0.585976] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/sim_ws/build/safety_node', '--', '-j6', '-l6'], 'cwd': '/home/orin/sim_ws/build/safety_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.1.159 58342 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4d3ae902-b9c7-475a-966d-78bb7aba6cd5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/orin/.local/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b45a9ca058.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orin/sim_ws/build/safety_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.159 58342 192.168.1.170 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.602808] (-) TimerEvent: {}
+[0.703532] (-) TimerEvent: {}
+[0.715502] (safety_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety_node\x1b[0m\n'}
+[0.784321] (safety_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o\x1b[0m\n'}
+[0.803638] (-) TimerEvent: {}
+[0.904472] (-) TimerEvent: {}
+[1.005126] (-) TimerEvent: {}
+[1.105787] (-) TimerEvent: {}
+[1.208634] (-) TimerEvent: {}
+[1.310394] (-) TimerEvent: {}
+[1.411652] (-) TimerEvent: {}
+[1.512516] (-) TimerEvent: {}
+[1.557371] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/orin/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/orin/sim_ws/build/f1tenth_gym_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/sim_ws/src/f1tenth_gym_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_CLIENT': '192.168.1.159 58342 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orin', 'OLDPWD': '/home/orin/.vscode-server', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4d3ae902-b9c7-475a-966d-78bb7aba6cd5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orin/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/orin/.local/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b45a9ca058.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orin/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.159 58342 192.168.1.170 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.612738] (-) TimerEvent: {}
+[1.713598] (-) TimerEvent: {}
+[1.814341] (-) TimerEvent: {}
+[1.915855] (-) TimerEvent: {}
+[2.016511] (-) TimerEvent: {}
+[2.117921] (-) TimerEvent: {}
+[2.133334] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.135566] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[2.136163] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[2.136753] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[2.137864] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[2.138171] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[2.220252] (-) TimerEvent: {}
+[2.232445] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.234449] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.235346] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[2.235649] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.235818] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[2.237474] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.240584] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.241119] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.244885] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.245654] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[2.248246] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.290761] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[2.291801] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/orin/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[2.320447] (-) TimerEvent: {}
+[2.360342] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[2.391097] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[2.420681] (-) TimerEvent: {}
+[2.521359] (-) TimerEvent: {}
+[2.622989] (-) TimerEvent: {}
+[2.723668] (-) TimerEvent: {}
+[2.824354] (-) TimerEvent: {}
+[2.924985] (-) TimerEvent: {}
+[3.025621] (-) TimerEvent: {}
+[3.126257] (-) TimerEvent: {}
+[3.226966] (-) TimerEvent: {}
+[3.327640] (-) TimerEvent: {}
+[3.428312] (-) TimerEvent: {}
+[3.528982] (-) TimerEvent: {}
+[3.629628] (-) TimerEvent: {}
+[3.730256] (-) TimerEvent: {}
+[3.830898] (-) TimerEvent: {}
+[3.931540] (-) TimerEvent: {}
+[3.965056] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.965646] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:33:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.965838] (safety_node) StderrLine: {'line': b'   33 |     void drive_callback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::ConstSharedPtr msg\x1b[m\x1b[K)\n'}
+[3.965995] (safety_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.972127] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.972537] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:38:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.972704] (safety_node) StderrLine: {'line': b'   38 |     void scan_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K)\n'}
+[3.972853] (safety_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.031702] (-) TimerEvent: {}
+[4.132361] (-) TimerEvent: {}
+[4.233038] (-) TimerEvent: {}
+[4.333721] (-) TimerEvent: {}
+[4.434423] (-) TimerEvent: {}
+[4.535125] (-) TimerEvent: {}
+[4.635763] (-) TimerEvent: {}
+[4.736890] (-) TimerEvent: {}
+[4.837982] (-) TimerEvent: {}
+[4.938617] (-) TimerEvent: {}
+[5.039285] (-) TimerEvent: {}
+[5.140556] (-) TimerEvent: {}
+[5.212281] (safety_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable safety_node\x1b[0m\n'}
+[5.240719] (-) TimerEvent: {}
+[5.341379] (-) TimerEvent: {}
+[5.442351] (-) TimerEvent: {}
+[5.474624] (safety_node) StdoutLine: {'line': b'[100%] Built target safety_node\n'}
+[5.503324] (safety_node) CommandEnded: {'returncode': 0}
+[5.542476] (-) TimerEvent: {}
+[5.548404] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'install'}
+[5.581457] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/sim_ws/build/safety_node'], 'cwd': '/home/orin/sim_ws/build/safety_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.1.159 58342 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4d3ae902-b9c7-475a-966d-78bb7aba6cd5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/orin/.local/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b45a9ca058.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orin/sim_ws/build/safety_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.159 58342 192.168.1.170 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[5.608700] (safety_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.609614] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/lib/safety_node/safety_node\n'}
+[5.609906] (safety_node) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/sim_ws/install/safety_node/lib/safety_node/safety_node" to ""\n'}
+[5.610078] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.sh\n'}
+[5.610232] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv\n'}
+[5.610461] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node\n'}
+[5.610629] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py\n'}
+[5.642639] (-) TimerEvent: {}
+[5.675272] (safety_node) StdoutLine: {'line': b"Listing '/home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...\n"}
+[5.686465] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/lib/safety_node/safety_node.py\n'}
+[5.687097] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node\n'}
+[5.687315] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node\n'}
+[5.687621] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh\n'}
+[5.687929] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv\n'}
+[5.688094] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/path.sh\n'}
+[5.688248] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/path.dsv\n'}
+[5.688387] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.bash\n'}
+[5.688524] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.sh\n'}
+[5.688657] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.zsh\n'}
+[5.688788] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.dsv\n'}
+[5.689909] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/package.dsv\n'}
+[5.690146] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node\n'}
+[5.690303] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake\n'}
+[5.690442] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake\n'}
+[5.690573] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/package.xml\n'}
+[5.698580] (safety_node) CommandEnded: {'returncode': 0}
+[5.742854] (-) TimerEvent: {}
+[5.782726] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 0}
+[5.784598] (-) EventReactorShutdown: {}

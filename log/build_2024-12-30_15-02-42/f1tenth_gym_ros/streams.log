@@ -1,0 +1,21 @@
+[1.780s] Invoking command in '/home/orin/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/orin/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/orin/sim_ws/build/f1tenth_gym_ros/build install --record /home/orin/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[2.269s] running egg_info
+[2.271s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[2.271s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[2.272s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[2.272s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[2.272s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[2.346s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.348s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.349s] running build
+[2.349s] running build_py
+[2.349s] running install
+[2.351s] running install_lib
+[2.354s] running install_data
+[2.355s] running install_egg_info
+[2.360s] removing '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[2.361s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[2.363s] running install_scripts
+[2.405s] Installing gym_bridge script to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[2.406s] writing list of installed files to '/home/orin/sim_ws/build/f1tenth_gym_ros/install.log'
+[2.481s] Invoked command in '/home/orin/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/orin/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/orin/sim_ws/build/f1tenth_gym_ros/build install --record /home/orin/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[0.737s] Invoking command in '/home/orin/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/gap_follow -- -j6 -l6
+[0.858s] Invoked command in '/home/orin/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/gap_follow -- -j6 -l6
+[1.017s] Invoking command in '/home/orin/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/gap_follow
+[1.059s] -- Install configuration: ""
+[1.059s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[1.059s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[1.059s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[1.060s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[1.175s] Listing '/home/orin/sim_ws/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[1.201s] -- Installing: /home/orin/sim_ws/install/gap_follow/lib/gap_follow/gap_follow.py
+[1.202s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[1.203s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[1.203s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[1.204s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[1.204s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/path.sh
+[1.205s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/environment/path.dsv
+[1.205s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.bash
+[1.205s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.sh
+[1.206s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.zsh
+[1.206s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/local_setup.dsv
+[1.215s] -- Installing: /home/orin/sim_ws/install/gap_follow/share/gap_follow/package.dsv
+[1.215s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[1.216s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[1.216s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[1.216s] -- Up-to-date: /home/orin/sim_ws/install/gap_follow/share/gap_follow/package.xml
+[1.216s] Invoked command in '/home/orin/sim_ws/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/gap_follow

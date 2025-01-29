@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:61 (file):
+  file INSTALL cannot find
+  "/home/orin/sim_ws/src/wall_follow/scripts/wall_follow.py": No such file or
+  directory.
+
+

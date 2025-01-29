@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000956] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.001456] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.001829] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.022895] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.099242] (-) TimerEvent: {}
+[0.200405] (-) TimerEvent: {}
+[0.301059] (-) TimerEvent: {}
+[0.401835] (-) TimerEvent: {}
+[0.502992] (-) TimerEvent: {}
+[0.538898] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[0.540855] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[0.542418] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/sim_ws/build/safety_node', '--', '-j6', '-l6'], 'cwd': '/home/orin/sim_ws/build/safety_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.1.159 58342 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4d3ae902-b9c7-475a-966d-78bb7aba6cd5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/orin/.local/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b45a9ca058.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orin/sim_ws/build/safety_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.159 58342 192.168.1.170 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.603235] (-) TimerEvent: {}
+[0.611370] (safety_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.659092] (safety_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.703369] (-) TimerEvent: {}
+[0.804026] (-) TimerEvent: {}
+[0.904649] (-) TimerEvent: {}
+[1.005299] (-) TimerEvent: {}
+[1.067437] (safety_node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.105451] (-) TimerEvent: {}
+[1.140100] (safety_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.147296] (safety_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.205605] (-) TimerEvent: {}
+[1.307138] (-) TimerEvent: {}
+[1.408494] (-) TimerEvent: {}
+[1.417349] (safety_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.423701] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/orin/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/orin/sim_ws/build/f1tenth_gym_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/sim_ws/src/f1tenth_gym_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_CLIENT': '192.168.1.159 58342 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orin', 'OLDPWD': '/home/orin/.vscode-server', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4d3ae902-b9c7-475a-966d-78bb7aba6cd5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orin/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/orin/.local/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b45a9ca058.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orin/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.159 58342 192.168.1.170 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.508674] (-) TimerEvent: {}
+[1.527379] (safety_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.530418] (safety_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.608816] (-) TimerEvent: {}
+[1.709471] (-) TimerEvent: {}
+[1.810104] (-) TimerEvent: {}
+[1.817441] (safety_node) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.818301] (safety_node) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.889783] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.891680] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[1.892539] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[1.893009] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[1.893927] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[1.894102] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[1.910252] (-) TimerEvent: {}
+[1.962551] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[1.964484] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[1.965011] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[1.965230] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.965579] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[1.967623] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.970788] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.971325] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.975719] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.976512] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[1.978755] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.010398] (-) TimerEvent: {}
+[2.016676] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[2.017679] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/orin/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[2.033565] (safety_node) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[2.082684] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[2.094506] (safety_node) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.110523] (-) TimerEvent: {}
+[2.112107] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[2.210683] (-) TimerEvent: {}
+[2.226762] (safety_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.310832] (-) TimerEvent: {}
+[2.370285] (safety_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.372132] (safety_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.372563] (safety_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/orin/sim_ws/src/safety_node/include\n'}
+[2.372794] (safety_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.374473] (safety_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.374760] (safety_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.375477] (safety_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.376197] (safety_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.376765] (safety_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.378029] (safety_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.378265] (safety_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.379027] (safety_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.385241] (safety_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.407133] (safety_node) StdoutLine: {'line': b'-- Generating done\n'}
+[2.410549] (safety_node) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/sim_ws/build/safety_node\n'}
+[2.410886] (-) TimerEvent: {}
+[2.471118] (safety_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety_node\x1b[0m\n'}
+[2.511078] (-) TimerEvent: {}
+[2.597832] (safety_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o\x1b[0m\n'}
+[2.611239] (-) TimerEvent: {}
+[2.711893] (-) TimerEvent: {}
+[2.812540] (-) TimerEvent: {}
+[2.913213] (-) TimerEvent: {}
+[3.013884] (-) TimerEvent: {}
+[3.114887] (-) TimerEvent: {}
+[3.215934] (-) TimerEvent: {}
+[3.316638] (-) TimerEvent: {}
+[3.417920] (-) TimerEvent: {}
+[3.518796] (-) TimerEvent: {}
+[3.619507] (-) TimerEvent: {}
+[3.720187] (-) TimerEvent: {}
+[3.820835] (-) TimerEvent: {}
+[3.921504] (-) TimerEvent: {}
+[4.023084] (-) TimerEvent: {}
+[4.123771] (-) TimerEvent: {}
+[4.224428] (-) TimerEvent: {}
+[4.325038] (-) TimerEvent: {}
+[4.425675] (-) TimerEvent: {}
+[4.526336] (-) TimerEvent: {}
+[4.626988] (-) TimerEvent: {}
+[4.727631] (-) TimerEvent: {}
+[4.828282] (-) TimerEvent: {}
+[4.928907] (-) TimerEvent: {}
+[5.029579] (-) TimerEvent: {}
+[5.131562] (-) TimerEvent: {}
+[5.233414] (-) TimerEvent: {}
+[5.334345] (-) TimerEvent: {}
+[5.435633] (-) TimerEvent: {}
+[5.536384] (-) TimerEvent: {}
+[5.637027] (-) TimerEvent: {}
+[5.684299] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.684938] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:33:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.685155] (safety_node) StderrLine: {'line': b'   33 |     void drive_callback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::ConstSharedPtr msg\x1b[m\x1b[K)\n'}
+[5.685317] (safety_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.690815] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.691280] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/sim_ws/src/safety_node/src/safety_node.cpp:38:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.691452] (safety_node) StderrLine: {'line': b'   38 |     void scan_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K)\n'}
+[5.691602] (safety_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[5.737173] (-) TimerEvent: {}
+[5.837816] (-) TimerEvent: {}
+[5.938479] (-) TimerEvent: {}
+[6.039824] (-) TimerEvent: {}
+[6.140470] (-) TimerEvent: {}
+[6.241164] (-) TimerEvent: {}
+[6.341817] (-) TimerEvent: {}
+[6.442454] (-) TimerEvent: {}
+[6.543112] (-) TimerEvent: {}
+[6.643786] (-) TimerEvent: {}
+[6.744461] (-) TimerEvent: {}
+[6.845137] (-) TimerEvent: {}
+[6.875240] (safety_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable safety_node\x1b[0m\n'}
+[6.945306] (-) TimerEvent: {}
+[7.045964] (-) TimerEvent: {}
+[7.122693] (safety_node) StdoutLine: {'line': b'[100%] Built target safety_node\n'}
+[7.146144] (-) TimerEvent: {}
+[7.152262] (safety_node) CommandEnded: {'returncode': 0}
+[7.201732] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'install'}
+[7.226951] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/sim_ws/build/safety_node'], 'cwd': '/home/orin/sim_ws/build/safety_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.1.159 58342 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4d3ae902-b9c7-475a-966d-78bb7aba6cd5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orin/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/orin/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/orin/.local/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b45a9ca058.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orin/sim_ws/build/safety_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.159 58342 192.168.1.170 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[7.247443] (-) TimerEvent: {}
+[7.249475] (safety_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.250575] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/lib/safety_node/safety_node\n'}
+[7.251853] (safety_node) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/sim_ws/install/safety_node/lib/safety_node/safety_node" to ""\n'}
+[7.252037] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.sh\n'}
+[7.252190] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv\n'}
+[7.252337] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node\n'}
+[7.252479] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py\n'}
+[7.315400] (safety_node) StdoutLine: {'line': b"Listing '/home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...\n"}
+[7.316238] (safety_node) StdoutLine: {'line': b"Compiling '/home/orin/sim_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py'...\n"}
+[7.327738] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/lib/safety_node/safety_node.py\n'}
+[7.328954] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node\n'}
+[7.329340] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node\n'}
+[7.329548] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh\n'}
+[7.329707] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv\n'}
+[7.329885] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/path.sh\n'}
+[7.330100] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/environment/path.dsv\n'}
+[7.330458] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.bash\n'}
+[7.330682] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.sh\n'}
+[7.330843] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.zsh\n'}
+[7.331045] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/local_setup.dsv\n'}
+[7.331246] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/package.dsv\n'}
+[7.331462] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node\n'}
+[7.331705] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake\n'}
+[7.331863] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake\n'}
+[7.332001] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/sim_ws/install/safety_node/share/safety_node/package.xml\n'}
+[7.337211] (safety_node) CommandEnded: {'returncode': 0}
+[7.346708] (-) TimerEvent: {}
+[7.428509] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 0}
+[7.430515] (-) EventReactorShutdown: {}

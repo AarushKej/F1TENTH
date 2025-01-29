@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+-- Installing: /home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow
+-- Installing: /home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+Listing '/home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+Compiling '/home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py'...
+-- Installing: /home/orin/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/package.dsv
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+-- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/package.xml

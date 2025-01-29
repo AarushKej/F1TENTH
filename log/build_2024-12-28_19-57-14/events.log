@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.002591] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.002694] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.002742] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.030245] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.099433] (-) TimerEvent: {}
+[0.200224] (-) TimerEvent: {}
+[0.300902] (-) TimerEvent: {}
+[0.401758] (-) TimerEvent: {}
+[0.503096] (-) TimerEvent: {}
+[0.603814] (-) TimerEvent: {}
+[0.640708] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[0.641949] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '/home/orin/sim_ws/src/safety_node', '-DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/safety_node'], 'cwd': '/home/orin/sim_ws/build/safety_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_AGENT_PID', '3104'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/sim_ws/src/safety_node'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin'), ('JOURNAL_STREAM', '8:59814'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3157,unix/ubuntu:/tmp/.ICE-unix/3157'), ('INVOCATION_ID', 'f86a46e376e44f11b137a56d440dd546'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6a292da7_c95c_4b6d_a022_fc5774e02c93'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/sim_ws/build/safety_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.704049] (-) TimerEvent: {}
+[0.805114] (-) TimerEvent: {}
+[0.905831] (-) TimerEvent: {}
+[0.936610] (safety_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.005987] (-) TimerEvent: {}
+[1.106636] (-) TimerEvent: {}
+[1.112858] (safety_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.137358] (safety_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.207102] (-) TimerEvent: {}
+[1.307935] (-) TimerEvent: {}
+[1.341263] (safety_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.346242] (safety_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.409064] (-) TimerEvent: {}
+[1.509711] (-) TimerEvent: {}
+[1.573780] (safety_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.593913] (safety_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.596693] (safety_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.601512] (safety_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.609875] (-) TimerEvent: {}
+[1.710497] (-) TimerEvent: {}
+[1.790752] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/orin/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/orin/sim_ws/build/f1tenth_gym_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orin/sim_ws/src/f1tenth_gym_ros', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_AGENT_PID': '3104', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/orin', 'OLDPWD': '/home/orin/sim_ws/src/safety_node', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2576', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/orin/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orin', 'JOURNAL_STREAM': '8:59814', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/3157,unix/ubuntu:/tmp/.ICE-unix/3157', 'INVOCATION_ID': 'f86a46e376e44f11b137a56d440dd546', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a292da7_c95c_4b6d_a022_fc5774e02c93', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/orin/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.810718] (-) TimerEvent: {}
+[1.820090] (safety_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.822719] (safety_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.913040] (-) TimerEvent: {}
+[2.015343] (-) TimerEvent: {}
+[2.034945] (safety_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.065623] (safety_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.067511] (safety_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.075427] (safety_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.115971] (-) TimerEvent: {}
+[2.146977] (safety_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.147623] (safety_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.216119] (-) TimerEvent: {}
+[2.316748] (-) TimerEvent: {}
+[2.350351] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.354444] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[2.355358] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[2.355784] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[2.356120] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[2.356415] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[2.416906] (-) TimerEvent: {}
+[2.436232] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.439178] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.439891] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[2.440123] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.441195] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[2.443276] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.446663] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.447561] (f1tenth_gym_ros) StdoutLine: {'line': b'copying config/sim.yaml -> /home/orin/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config\n'}
+[2.448160] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.454074] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.455847] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[2.458525] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.517101] (-) TimerEvent: {}
+[2.527138] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/orin/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[2.533890] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/orin/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[2.610685] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[2.617542] (-) TimerEvent: {}
+[2.672526] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[2.717689] (-) TimerEvent: {}
+[2.741658] (safety_node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.817871] (-) TimerEvent: {}
+[2.881372] (safety_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.906017] (safety_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.918082] (-) TimerEvent: {}
+[3.018763] (-) TimerEvent: {}
+[3.119449] (-) TimerEvent: {}
+[3.137377] (safety_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.219707] (-) TimerEvent: {}
+[3.224424] (safety_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.319989] (-) TimerEvent: {}
+[3.411281] (safety_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.420111] (-) TimerEvent: {}
+[3.520819] (-) TimerEvent: {}
+[3.565981] (safety_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.571361] (safety_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.579069] (safety_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.620979] (-) TimerEvent: {}
+[3.721604] (-) TimerEvent: {}
+[3.754203] (safety_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.754959] (safety_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.821776] (-) TimerEvent: {}
+[3.922479] (-) TimerEvent: {}
+[3.932734] (safety_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.933296] (safety_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.022636] (-) TimerEvent: {}
+[4.085077] (safety_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.085694] (safety_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.122816] (-) TimerEvent: {}
+[4.223861] (-) TimerEvent: {}
+[4.252607] (safety_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.256127] (safety_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.324020] (-) TimerEvent: {}
+[4.424623] (-) TimerEvent: {}
+[4.525277] (-) TimerEvent: {}
+[4.603033] (safety_node) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[4.606059] (safety_node) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[4.625455] (-) TimerEvent: {}
+[4.726160] (-) TimerEvent: {}
+[4.826840] (-) TimerEvent: {}
+[4.845383] (safety_node) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[4.926997] (-) TimerEvent: {}
+[4.930243] (safety_node) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[5.027151] (-) TimerEvent: {}
+[5.127772] (-) TimerEvent: {}
+[5.160153] (safety_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.227923] (-) TimerEvent: {}
+[5.328617] (-) TimerEvent: {}
+[5.387742] (safety_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.391342] (safety_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.392362] (safety_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.393332] (safety_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.395188] (safety_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.403658] (safety_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.406049] (safety_node) StderrLine: {'line': b'CMake Error at CMakeLists.txt:32 (add_executable):\n'}
+[5.406678] (safety_node) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.406862] (safety_node) StderrLine: {'line': b'\n'}
+[5.407004] (safety_node) StderrLine: {'line': b'    src/safety_node.cpp\n'}
+[5.407134] (safety_node) StderrLine: {'line': b'\n'}
+[5.407258] (safety_node) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[5.407379] (safety_node) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[5.407496] (safety_node) StderrLine: {'line': b'\n'}
+[5.407609] (safety_node) StderrLine: {'line': b'\n'}
+[5.409275] (safety_node) StderrLine: {'line': b'CMake Error at CMakeLists.txt:32 (add_executable):\n'}
+[5.409753] (safety_node) StderrLine: {'line': b'  No SOURCES given to target: safety_node\n'}
+[5.409936] (safety_node) StderrLine: {'line': b'\n'}
+[5.410133] (safety_node) StderrLine: {'line': b'\n'}
+[5.410339] (safety_node) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[5.428738] (-) TimerEvent: {}
+[5.438247] (safety_node) CommandEnded: {'returncode': 1}
+[5.499417] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 1}
+[5.510263] (-) EventReactorShutdown: {}

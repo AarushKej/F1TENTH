@@ -1,0 +1,61 @@
+[0.615s] Invoking command in '/home/orin/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/safety_node
+[0.907s] -- The C compiler identification is GNU 9.4.0
+[1.083s] -- The CXX compiler identification is GNU 9.4.0
+[1.107s] -- Check for working C compiler: /usr/bin/cc
+[1.311s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.317s] -- Detecting C compiler ABI info
+[1.544s] -- Detecting C compiler ABI info - done
+[1.566s] -- Detecting C compile features
+[1.567s] -- Detecting C compile features - done
+[1.571s] -- Check for working CXX compiler: /usr/bin/c++
+[1.790s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.793s] -- Detecting CXX compiler ABI info
+[2.005s] -- Detecting CXX compiler ABI info - done
+[2.036s] -- Detecting CXX compile features
+[2.037s] -- Detecting CXX compile features - done
+[2.045s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.117s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.712s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.876s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.107s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.194s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.536s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.541s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.549s] -- Looking for pthread.h
+[3.724s] -- Looking for pthread.h - found
+[3.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.903s] -- Looking for pthread_create in pthreads
+[4.055s] -- Looking for pthread_create in pthreads - not found
+[4.055s] -- Looking for pthread_create in pthread
+[4.223s] -- Looking for pthread_create in pthread - found
+[4.226s] -- Found Threads: TRUE  
+[4.574s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[4.576s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.815s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[4.900s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.130s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.358s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.361s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.362s] -- Added test 'lint_cmake' to check CMake code style
+[5.363s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.365s] -- Added test 'xmllint' to check XML markup files
+[5.374s] -- Configuring done
+[5.376s] CMake Error at CMakeLists.txt:32 (add_executable):
+[5.376s]   Cannot find source file:
+[5.377s] 
+[5.377s]     src/safety_node.cpp
+[5.377s] 
+[5.377s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[5.377s]   .hpp .hxx .in .txx
+[5.377s] 
+[5.377s] 
+[5.379s] CMake Error at CMakeLists.txt:32 (add_executable):
+[5.379s]   No SOURCES given to target: safety_node
+[5.380s] 
+[5.380s] 
+[5.380s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[5.412s] Invoked command in '/home/orin/sim_ws/build/safety_node' returned '1': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/safety_node

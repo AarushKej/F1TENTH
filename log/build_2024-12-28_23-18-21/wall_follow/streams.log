@@ -1,0 +1,38 @@
+[0.555s] Invoking command in '/home/orin/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
+[0.612s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.667s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.126s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.198s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.549s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.817s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.817s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.878s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.007s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[2.069s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.208s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.355s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.358s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.358s] -- Added test 'lint_cmake' to check CMake code style
+[2.359s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.361s] -- Added test 'xmllint' to check XML markup files
+[2.368s] -- Configuring done
+[2.374s] -- Generating done
+[2.378s] -- Build files have been written to: /home/orin/sim_ws/build/wall_follow
+[2.441s] Invoked command in '/home/orin/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
+[2.494s] Invoking command in '/home/orin/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/wall_follow
+[2.516s] -- Install configuration: ""
+[2.517s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[2.517s] -- Installing: /home/orin/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[2.517s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow
+[2.517s] -- Up-to-date: /home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[2.587s] Listing '/home/orin/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[2.602s] CMake Error at cmake_install.cmake:61 (file):
+[2.603s]   file INSTALL cannot find
+[2.603s]   "/home/orin/sim_ws/src/wall_follow/scripts/wall_follow.py": No such file or
+[2.603s]   directory.
+[2.603s] 
+[2.604s] 
+[2.607s] Invoked command in '/home/orin/sim_ws/build/wall_follow' returned '1': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/orin/sim_ws/build/wall_follow

@@ -1,0 +1,2 @@
+Invoking command in '/home/orin/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/safety_node
+Invoked command in '/home/orin/sim_ws/build/safety_node' returned '1': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/orin/sim_ws/src/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/sim_ws/install/safety_node

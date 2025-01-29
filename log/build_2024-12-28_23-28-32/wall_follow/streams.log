@@ -1,0 +1,37 @@
+[0.558s] Invoking command in '/home/orin/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
+[0.623s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.671s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.080s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.153s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.505s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.507s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.774s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.774s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.836s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.967s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[2.029s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.166s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.310s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.311s] -- Added test 'lint_cmake' to check CMake code style
+[2.311s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.313s] -- Added test 'xmllint' to check XML markup files
+[2.319s] -- Configuring done
+[2.321s] CMake Error at CMakeLists.txt:33 (add_executable):
+[2.322s]   Cannot find source file:
+[2.322s] 
+[2.322s]     src/wall_follow_node.cpp
+[2.322s] 
+[2.322s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[2.322s]   .hpp .hxx .in .txx
+[2.323s] 
+[2.323s] 
+[2.324s] CMake Error at CMakeLists.txt:33 (add_executable):
+[2.324s]   No SOURCES given to target: wall_follow_node
+[2.324s] 
+[2.324s] 
+[2.324s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[2.343s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[2.347s] Invoked command in '/home/orin/sim_ws/build/wall_follow' returned '2': CMAKE_PREFIX_PATH=/home/orin/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/orin/sim_ws/build/wall_follow -- -j6 -l6
